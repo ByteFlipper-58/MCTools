@@ -4,7 +4,7 @@ import 'screens/placeholder_screen.dart';
 import 'screens/home_page.dart';
 
 Map<String, WidgetBuilder> appRoutes = {
-  '/': (context) => const HomePage(title: 'Home Page'),
+  '/': (context) => const HomePage(title: 'MC Tools'),
   '/server-status': (context) => const ServerStatusScreen(),
   '/placeholder': (context) => const PlaceholderScreen(),
 };
