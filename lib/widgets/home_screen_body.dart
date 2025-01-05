@@ -12,7 +12,7 @@ class HomeScreenBody extends StatelessWidget {
         children: <Widget>[
           CustomCard(
             title: 'Server Status',
-            subtitle: 'Check the server status',
+            subtitle: 'Check the minecraft server status',
             route: '/server-status',
           ),
           SizedBox(height: 20),
